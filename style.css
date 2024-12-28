@@ -34,7 +34,7 @@ body * {
   width: 100%;
   max-width: 588px;
   padding: 0 24px;
-  margin: 56px auto;
+  margin: auto;
 }
 
 #profile {
@@ -98,12 +98,12 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 24px 0;
+  padding: 12px 0;
   font-size: 20px;
 }
 ul li a {
   display: flex;
-  padding: 16px 24px;
+  padding: 8px 12px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -125,7 +125,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 30px;
   padding: 24px 0;
 }
 #social-links a {
@@ -141,7 +141,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 footer {
-  padding: 24px 0;
+  padding: 12px 0;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
